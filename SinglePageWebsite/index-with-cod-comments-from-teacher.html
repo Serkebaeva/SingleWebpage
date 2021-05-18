@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Single Page Website</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+
+  <!-- правильно: <header class="header container"> -->
+  <header class="header.container">
+    <div class="header-logo">
+      <img class="header-logo-img" src="images/Logo.png" alt="Logo" />
+      <h1>Be sure you put your feet in the right place</h1>
+    </div>
+
+    <div class="header-bottom">
+      <form>
+        <label class="zip-code">
+          <input type="text" placeholder="Enter your zip code" /></label>
+        <p class="Text-inside-photo-block">
+          This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+        </p>
+
+        <!-- Нужно удалить ссылку, данные из формы нужно отправлять по нажатию кнопки а не ссылки -->
+        <button type="submit" class="btn">
+          <a href="#">Press Me</a>
+        </button>
+      </form>
+    </div>
+  </header>
+  <main>
+
+    <!-- именовать классы нужно только буквами нижнего регистра! -->
+    <section class="The-Gallery">
+      <div class="the-gallery-div">
+        <div class="gallery-icon">
+          <img src="images/Doc-Pages.png" alt="Docs" />
+        </div>
+        <div class="gallery-item">
+          <h3>Documents</h3>
+          <p>
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+          </p>
+        </div>
+
+        <div class="gallery-icon">
+          <img src="images/Camera.png" alt="Camera" />
+        </div>
+
+        <div class="gallery-item">
+          <h3>Photos</h3>
+          <p>
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- именовать классы нужно только буквами нижнего регистра! -->
+    <section class="Product-description">
+      <div class="container">
+        <div class="product-description-tablets">
+          <h2>This is heading</h2>
+          <p class="about-tablets">
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Laudantium, hic earum?
+          </p>
+          <p class="about-tablets-description">
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
+            amet sint magnam, dolorum ex necessitatibus aliquam? Dicta
+            expedita neque magni odit ex dolor veritatis fuga, doloremque sunt
+            nemo animi. Fugit. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Consectetur ab minima sunt eligendi neque, iste
+            dolore commodi dicta tenetur dolorem amet? Animi obcaecati at a
+            quod. Itaque hic reiciendis sed.
+          </p>
+        </div>
+
+        <div class="container-laptop">
+          <div class="product-description-laptop">
+            <h2>This is heading</h2>
+            <p class="about-laptop">
+              Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auc.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+              tempore commodi alias exercitationem dolore architecto aliquam
+              vitae, maiores dicta ducimus magnam ipsam est porro iste quae
+              error necessitatibus fuga libero.
+            </p>
+
+            <!-- здесь нужно удалить кнопку и оставить только ссылку -->
+            <button type="submit" class="container-btn">
+              <a href="#">Download</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="contact-form">
+        <form>
+
+          <!-- здесь не нужно вставлять круглое изображение, вместо этого лучше использвать div у которого можно закруглить углы -->
+          <img class="form-background-ellipse" src="images/form-ellipse.png" alt="form-background" />
+          <label class="text-form">
+            <input type="text" placeholder="Name" /></label>
+          <label class="email-form">
+            <input type="text" placeholder="email adress" />
+          </label>
+          <label class="message-form">
+            <textarea placeholder="Message"></textarea>
+          </label>
+          <button type="submit">
+            <img class="Checkmark-form-Btn" src="images/Checkmark-form-Btn.png" alt="Checkmark form-Btn" />
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer>&copy; 2013 CSS Author. All rights reserved.</footer>
+  </main>
+</body>
+
+</html>
