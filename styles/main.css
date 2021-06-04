@@ -126,7 +126,7 @@ h1 {
 .container {
   background-image: url(../images/Section1&2-banner.jpg);
   background-size: cover;
-  height: 1290px;
+  height: 1540px;
 }
 .product-description-tablets {
   text-align: initial;
@@ -167,7 +167,6 @@ h2 {
 .container-laptop p {
   width: 350px;
   margin-top: -20px;
-
   text-align: initial;
 }
 
@@ -177,6 +176,10 @@ h2 {
   padding-right: 280px;
   text-align: right;
   height: 670px;
+}
+
+.product-description-laptop h2 {
+  margin-top: 270px;
 }
 
 .container-btn {
@@ -235,13 +238,13 @@ h2 {
 
 .text-form {
   position: absolute;
-  left: 45%;
+  left: 44%;
   text-align: center;
   padding-top: 105px;
 }
 .email-form {
   position: absolute;
-  right: 42%;
+  right: 45%;
   padding-top: 165px;
 }
 .message-form {
@@ -260,7 +263,7 @@ textarea {
 
 .Checkmark-form-Btn {
   position: absolute;
-  right: 46%;
+  right: 49%;
   padding-top: 265px;
 }
 
