@@ -126,7 +126,7 @@ h1 {
 .container {
   background-image: url(../images/Section1&2-banner.jpg);
   background-size: cover;
-  height: 1540px;
+  max-height: 1280px;
 }
 .product-description-tablets {
   text-align: initial;
@@ -179,7 +179,7 @@ h2 {
 }
 
 .product-description-laptop h2 {
-  margin-top: 270px;
+  margin-top: 40px;
 }
 
 .container-btn {
@@ -238,13 +238,13 @@ h2 {
 
 .text-form {
   position: absolute;
-  left: 44%;
+  left: 45%;
   text-align: center;
   padding-top: 105px;
 }
 .email-form {
   position: absolute;
-  right: 45%;
+  right: 41%;
   padding-top: 165px;
 }
 .message-form {
